@@ -37,15 +37,6 @@ Our approach involves exploring different machine learning models, evaluating th
 - **Random Forest**: Achieved the best overall performance after hyperparameter tuning, with the highest precision and balanced recall.
 - **Naive Bayes**: Provided a simple model, though it struggled with class imbalance, leading to a lower precision.
 
-## Model Results Summary
-| Model                 | Precision | Recall | FP  | FN   |
-|-----------------------|-----------|--------|-----|------|
-| Naive Bayes            | 0.1957    | 0.9993 | 2   | 11695 |
-| Logistic Regression    | 0.8887    | 0.7236 | 796 | 261   |
-| Neural Network         | 0.8721    | 0.7624 | 684 | 322   |
-| Decision Tree          | 0.9027    | 0.7212 | 803 | 224   |
-| Random Forest          | 0.8845    | 0.7462 | 1096| 421   |
-
 ## Business Impact
 - **Fraud Detection Automation**: Implement machine learning models like Neural Networks and Random Forest into real-time transaction monitoring systems to flag suspicious transactions for further review before processing.
 - **Customer Trust & Experience**: Reduce false positives to avoid unnecessary transaction holds and improve customer satisfaction by minimizing fraud-related disruptions.
